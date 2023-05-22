@@ -1,0 +1,65 @@
+body {
+    background: #f8f4ff;
+    font-family: "Euclid Circular A", "Poppins";
+  }
+  
+  progress {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border: none;
+    background: transparent;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: rgb(33, 33, 33);
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: lightblue;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(127,121,255,1) 100%);
+    box-shadow: 0 0 10px darkblue;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+  
+  section {
+    min-height: 100vh;
+  }
+  
+  section:nth-child(1) {
+    background: rgb(245,245,220);
+    background: linear-gradient(0deg, rgba(245,245,220,1) 0%, rgba(127,121,255,1) 100%);
+  }
+
+  section:nth-child(2) {
+    background: #f5f5dc;
+  }
+
+  section:nth-child(3) {
+    background: rgb(127,121,255);
+    background: linear-gradient(0deg, rgba(127,121,255,1) 0%, rgba(245,245,220,1) 100%);
+  }
