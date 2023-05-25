@@ -37,13 +37,35 @@ body {
     box-shadow: 0 0 10px darkblue;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
   }
-  
+
+  /* Developing the navbar thing i think */
   nav h1 {
+    position: relative;
     color: white;
     font-weight: lighter;
-    font-size: 18px;
+    top: -5px;
+    font-size: 20px;
+  }
+
+  nav h1 span  {
+    position: relative;
+    color: rgb(127,121,255);
+    font-weight: bolder;
+    top: 15px;
+    left: -15px;
+    font-size: 20px;
+  }
+
+  .hamburgerMenu {
+    position: relative;
+    background:rgb(33, 33, 33);
+    width: 40px;
+    height: 40px;
+    left: -60px;
+    margin-left: auto;
   }
   
   section {

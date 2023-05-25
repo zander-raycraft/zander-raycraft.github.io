@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useEffect } from "react";
 
-export const NavBar = () => {
+export const PersonalPage = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.to("progress", {
@@ -18,9 +18,12 @@ export const NavBar = () => {
     <>
       <progress max="100" value="0"></progress>
       <nav>
-        <h1>Zander Raycraft</h1>
+        <h1>Zander <span>Raycraft</span></h1>
+        <div className="hamburgerMenu">
+          
+        </div>
       </nav>
-      <div class="container">
+      <div className="container">
         <section></section>
         <section></section>
         <section></section>

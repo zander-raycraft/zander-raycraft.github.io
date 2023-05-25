@@ -1,7 +1,12 @@
-import { NavBar } from './ProgBar/NavBar.js'
+import { PersonalPage} from './ProgBar/NavBar.js'
+import "./App.css"
+
 
 function App() {
-  return <NavBar />;
+  <div className='tempImage'></div>
+  return (
+    <PersonalPage />
+  )
 }
 
 export default App;
