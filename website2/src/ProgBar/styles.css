@@ -42,7 +42,7 @@ body {
   }
 
   /* Developing the navbar thing i think */
-  nav h1 {
+  nav h2 {
     position: relative;
     color: white;
     font-weight: lighter;
@@ -50,7 +50,7 @@ body {
     font-size: 20px;
   }
 
-  nav h1 span  {
+  nav h2 span  {
     position: relative;
     color: rgb(127,121,255);
     font-weight: bolder;

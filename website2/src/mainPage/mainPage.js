@@ -1,12 +1,11 @@
 import React from 'react';
 import "./mainPage.css";
+import { PersonalPage } from '../ProgBar/NavBar';
 
 function MainPage() {
   return (
     <div>
-      <h2>My Website</h2>
-      <div className='background'></div>
-      {/* Add your website content here */}
+      <PersonalPage />
     </div>
   );
 }
