@@ -1,3 +1,4 @@
+
 body {
     background: #f8f4ff;
     font-family: "Euclid Circular A", "Poppins";
@@ -5,7 +6,7 @@ body {
   
   progress {
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     left: 0;
     -webkit-appearance: none;
@@ -32,22 +33,39 @@ body {
     left: 0;
     width: 100%;
     height: 72px;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(127,121,255,1) 100%);
-    box-shadow: 0 0 10px darkblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
     padding: 0 20px;
   }
 
+  nav h3 {
+    position: relative;
+    font-family: "Palatino", serif;
+    font-weight: lighter;
+    color: white;
+    left: 20px;
+  }
   /* Developing the navbar thing i think */
   nav h2 {
     position: relative;
     color: white;
     font-weight: lighter;
+    left: 10px;
     top: -5px;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h2::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    bottom: 0;
+    border-right: 2px solid white;
   }
 
   nav h2 span  {
@@ -61,27 +79,100 @@ body {
 
   .hamburgerMenu {
     position: relative;
-    background:rgb(33, 33, 33);
+    background: yellow;
     width: 40px;
     height: 40px;
     left: -60px;
     margin-left: auto;
   }
-  
-  section {
+
+  .container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    }
+  .segment {
     min-height: 100vh;
   }
   
-  section:nth-child(1) {
-    background: rgb(245,245,220);
-    background: linear-gradient(0deg, rgba(245,245,220,1) 0%, rgba(127,121,255,1) 100%);
+  .firstSegment {
+    position: relative;
+    width: 100%;
+    height: 100%;
   }
 
-  section:nth-child(2) {
-    background: #f5f5dc;
+  .backImage{
+    position: relative;
+    width: 100%;
+    height: 100%;
   }
 
-  section:nth-child(3) {
-    background: rgb(127,121,255);
-    background: linear-gradient(0deg, rgba(127,121,255,1) 0%, rgba(245,245,220,1) 100%);
+  .segment:nth-child(2) {
+    background: black
+  }
+
+  .segment:nth-child(3) {
+    background: black
+  }
+  
+  .imageContainer {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 43.0vw;
+    height: 60%;
+  }
+
+  .firstImage {
+    position: relative;
+    left: 5%;
+    height: 45%;
+    width: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+  .secondImage {
+    position: relative;
+    top: 30%;
+    left: -10%;
+    height: 60%;
+    width: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 10;
+}
+  .thirdImage {
+    position: relative;
+    left: 10%;
+    top: 8%;
+    height: 60%;
+    width: 35%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .imageContainer img:hover {
+    box-shadow: 5px 5px 5px lavender;
+    z-index: 100;
+  }
+
+  .bar {
+    position: absolute;
+    background: white;
+    height: 50%;
+    width: 2px;
+    left: 14%;
+    top: 23%;
   }

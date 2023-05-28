@@ -1,35 +1,72 @@
-import "./styles.css";
-import "./traingleStyle.css";
-import gsap from "gsap";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import { useEffect } from "react";
+import StudentText from "../helperFiles/typewriter";
+import "./styles.css";
 
 export const PersonalPage = () => {
+  const progressRef = useRef(null);
 
-  //Creating the moving progress bar
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.to("progress", {
-      value: 100,
-      scrollTrigger: {
-        scrub: 0.5,
-      },
+
+    const progress = progressRef.current;
+    const container = document.querySelector(".container");
+
+    const updateProgress = () => {
+      const scrollHeight = container.scrollHeight - container.clientHeight;
+      const scrollTop = container.scrollTop;
+      const progressValue = (scrollTop / scrollHeight) * 100;
+      progress.value = progressValue;
+    };
+
+    container.addEventListener("scroll", updateProgress);
+
+    ScrollTrigger.create({
+      trigger: container,
+      start: "top top",
+      end: "bottom bottom",
+      onUpdate: updateProgress,
     });
+
+    return () => {
+      container.removeEventListener("scroll", updateProgress);
+    };
   }, []);
 
   return (
     <>
-      <progress max="100" value="0"></progress>
+      <progress
+        ref={progressRef}
+        className="progress"
+        max="100"
+        value="0"
+      ></progress>
       <nav>
-        <h2>Zander <span>Raycraft</span></h2>
-        <div className="hamburgerMenu">
-
-        </div>
+        <h2>
+          Zander <span>Raycraft</span>
+        </h2>
+        <StudentText />
+        <div className="hamburgerMenu"></div>
       </nav>
       <div className="container">
-        <section></section>
-        <section></section>
-        <section></section>
+        <div className="firstSegment">
+          <div className="backImage">
+            <img
+              src={process.env.PUBLIC_URL + "/webPics/shutterstock_514474840.webp"}
+              alt="firstImage"
+              className="backImage"
+            />
+          </div>
+          <div className="imageContainer">
+            <img src={process.env.PUBLIC_URL + "/webPics/DSC00127.jpg"} alt="firstImage" className="firstImage"/>
+            <img src={process.env.PUBLIC_URL + "/webPics/IMG_4385.jpg"} alt="secondImage" className="secondImage"/>
+            <img src={process.env.PUBLIC_URL + "/webPics/IMG_0154.jpg"} alt="thirdImage" className="thirdImage"/>
+
+          </div>
+        </div>
+        <div className="segment"></div>
+        <div className="segment"></div>
       </div>
     </>
   );
