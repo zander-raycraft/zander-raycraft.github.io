@@ -5,6 +5,7 @@ import StudentText from "../helperFiles/typewriter";
 import "./styles.css";
 
 export const PersonalPage = () => {
+  //make a change
   const progressRef = useRef(null);
 
   useEffect(() => {
