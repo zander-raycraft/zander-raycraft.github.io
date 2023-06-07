@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: #3e3f5d;
+    font-family: "Euclid Circular A", "Poppins";
+  }
+  
+  article {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  article header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 10px 0 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* background: rgb(11,0,255);
+    background: linear-gradient(0deg, rgba(11,0,255,1) 0%, rgba(13,13,111,1) 100%); */
+    border: 2px solid white;
+    background: black;
+    color: white;
+    transition: background-color 0.3s;
+  }
+
+  article header:hover {
+    box-shadow: 5px 5px #b5b6d8;
+  }
+  
+  article header.active span {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+  
+  article h2 {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.0vw;
+    font-weight: lighter;
+  }
+  article h2::after {
+    opacity: 0;
+  }
+  
+  article p {
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    padding: 20px;
+    font-size: 1.7vw;
+  }
+  
+  article span {
+    -webkit-transition: transform 1.25s;
+    -moz-transition: transform 1.25s;
+    -ms-transition: transform 1.25s;
+    -o-transition: transform 1.25s;
+    transition: transform 1.25s;
+}
+  
+  .rc-accordion-card header .material-symbols-outlined {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .rc-accordion-card header .material-symbols-outlined::before {
+    content: "+";
+  }
+  
+  .rc-accordion-card header.active .material-symbols-outlined::before {
+    content: "-";
+  }
+  
+  .rc-accordion-card header .material-symbols-outlined:hover {
+    background-color: #eee;
+  }
+  
+  
+  
+  .collapse {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    background-color: black;
+    transition: height 0.5s ease;
+    animation: slideIn 0.5s ease;
+  }
+  
+  .collapse.show {
+    height: auto;
+  }
+  
+  .rc-accordion-card {
+    overflow: hidden;
+    transition: height 0.3s ease;
+    animation-name: slide-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+  
+  
+  .rc-accordion-card.slide-in {
+    animation-name: slide-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }  
+  
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  

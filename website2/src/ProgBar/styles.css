@@ -70,7 +70,7 @@ body {
 
   nav h2 span  {
     position: relative;
-    color: rgb(127,121,255);
+    color: rgb(80, 255, 255);
     font-weight: bolder;
     top: 15px;
     left: -15px;
@@ -121,9 +121,9 @@ body {
   .imageContainer {
     position: absolute;
     left: 5%;
-    top: 15%;
-    width: 43.0vw;
-    height: 60%;
+    top: 10%;
+    width: 40.0vw;
+    height: 65%;
   }
 
   .firstImage {
@@ -148,7 +148,7 @@ body {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
-    z-index: 10;
+    z-index: 8;
 }
   .thirdImage {
     position: relative;
@@ -175,4 +175,75 @@ body {
     width: 2px;
     left: 14%;
     top: 23%;
+  }
+
+  .random-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: red;
+  }
+
+  .aboutme-container {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 45%;
+    top: 25%;
+    width: 55%;
+    height: 70%;
+  }
+  
+  .aboutme-container article {
+    position: relative;
+  }
+
+  .aboutme-container h3 {
+    position: absolute;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.8vw;
+    font-weight: lighter;
+    color: white;
+    top: -27%;
+    left: 40%;
+    z-index: 3;
+
+  }
+  .shadow {
+    position: absolute;
+    opacity: .5;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.8vw;
+    color: rgb(80, 255, 255);
+    top: -28%;
+    left: 40%;
+    z-index: 1;
+  }
+
+  .secondShadow {
+    position: absolute;
+    opacity: .5;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.6vw;
+    color: rgb(80, 255, 255);
+    top: -21%;
+    left: 15.5%;
+    z-index: 1;
+  }
+
+  .secondText {
+    position: absolute;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.8vw;
+    font-weight: lighter;
+    color: white;
+    top: -17%;
+    left: 15%;
+    z-index: 3;
+  }
+
+  .acordian {
+    position: relative;
+    left: 20%;
   }

@@ -4,8 +4,8 @@ const Typewriter = () => {
   const [text, setText] = useState("");
   const [showCursor, setShowCursor] = useState(true);
   const words = ["Programmer"];
-  const delay = 200;
-  const loopDelay = 2000;
+  const delay = 500;
+  const loopDelay = 4000;
   const animateRef = useRef(true);
 
   useEffect(() => {

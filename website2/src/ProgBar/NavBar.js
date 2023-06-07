@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import StudentText from "../helperFiles/typewriter";
+import { Accordion } from "../helperFiles/Acrodian";
 import "./styles.css";
 
 export const PersonalPage = () => {
@@ -54,7 +55,7 @@ export const PersonalPage = () => {
         <div className="firstSegment">
           <div className="backImage">
             <img
-              src={process.env.PUBLIC_URL + "/webPics/shutterstock_514474840.webp"}
+              src={process.env.PUBLIC_URL + "/webPics/gold-triangle.jpeg"}
               alt="firstImage"
               className="backImage"
             />
@@ -63,10 +64,22 @@ export const PersonalPage = () => {
             <img src={process.env.PUBLIC_URL + "/webPics/DSC00127.jpg"} alt="firstImage" className="firstImage"/>
             <img src={process.env.PUBLIC_URL + "/webPics/IMG_4385.jpg"} alt="secondImage" className="secondImage"/>
             <img src={process.env.PUBLIC_URL + "/webPics/IMG_0154.jpg"} alt="thirdImage" className="thirdImage"/>
-
+          </div>
+          <div className="aboutme-container">
+            <h3>I'm Zander,</h3>
+            <h4 className="shadow">I'm Zander</h4>
+            <h1 className="secondText">Student and Software developer</h1>
+            <h5 className="secondShadow">Student <span>and</span> Software developer</h5>
+            <Accordion className="acordian"/>
           </div>
         </div>
-        <div className="segment"></div>
+        <div className="segment">
+          <div className="random-container">
+            <div className="first-cont"></div>
+            <div className="second-cont"></div>
+            <div className="third-cont"></div>
+          </div>
+        </div>
         <div className="segment"></div>
       </div>
     </>

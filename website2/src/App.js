@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import TriangleBack from './landingPage/landingPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from "./mainPage/mainPage";
 
@@ -20,7 +19,7 @@ function App() {
 function Home() {
   return (
     <>
-      <TriangleBack />
+      <MainPage />
     </>
   );
 }
