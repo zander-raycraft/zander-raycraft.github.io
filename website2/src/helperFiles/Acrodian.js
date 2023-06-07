@@ -44,7 +44,7 @@ const AccordionItem = (props) => {
   const contentEl = useRef(null);
   const { handleToggle, active, faq, index } = props;
   const { header, id, text } = faq;
-  const { dropState, useDropState } = useState("+")
+  const { dropState } = useState("+")
 
   useEffect(() => {
     if (active === id) {
