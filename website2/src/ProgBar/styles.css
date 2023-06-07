@@ -230,9 +230,6 @@ body {
     top: -21%;
     left: 15.5%;
     z-index: 1;
-    animation: fade-in 2s;
-    -webkit-animation: fade-in 2s;
-    animation-fill-mode: both;
 }
 
   .secondText {
@@ -244,22 +241,9 @@ body {
     top: -17%;
     left: 15%;
     z-index: 3;
-    animation: fade-in 2s;
-    -webkit-animation: fade-in 2s;
-    animation-fill-mode: both;
 }
 
   .acordian {
     position: relative;
     left: 20%;
   }
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
