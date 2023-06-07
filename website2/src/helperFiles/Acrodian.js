@@ -79,7 +79,7 @@ const AccordionItem = (props) => {
   
 
   export const Accordion = () => {
-    const [active, setActive] = useState(faqs[0].id);
+    const [active, setActive] = useState(null);
   
     const handleToggle = (index) => {
       if (active === index) {

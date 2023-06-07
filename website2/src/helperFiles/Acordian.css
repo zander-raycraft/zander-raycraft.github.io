@@ -55,7 +55,7 @@ body {
     color: white;
     font-family: "Helvetica", sans-serif;
     padding: 20px;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
   }
   
   article span {
@@ -109,14 +109,14 @@ body {
     overflow: hidden;
     transition: height 0.3s ease;
     animation-name: slide-in;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-fill-mode: both;
   }
   
   
   .rc-accordion-card.slide-in {
     animation-name: slide-in;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-fill-mode: both;
   }  
   
