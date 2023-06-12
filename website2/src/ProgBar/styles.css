@@ -183,13 +183,6 @@ body {
     top: 23%;
   }
 
-  .random-container {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background: red;
-  }
-
   .aboutme-container {
     display: flex;
     position: absolute;
