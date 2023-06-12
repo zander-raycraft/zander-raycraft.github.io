@@ -1,0 +1,14 @@
+.custom-progress-bar {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    background-color: grey;
+    height: 5px;
+    margin-bottom: 10px;
+}
+  
+  .custom-progress-bar .MuiLinearProgress-bar {
+    background-color: rgb(80, 255, 255);
+    /* Add any other custom styles for the progress bar */
+  }
+  

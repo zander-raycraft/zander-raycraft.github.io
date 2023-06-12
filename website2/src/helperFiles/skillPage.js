@@ -1,7 +1,9 @@
 import React from "react";
 import "./skillPage.css";
+import { Progress } from "./progress"
 import { FaTools, FaAngleDoubleRight } from 'react-icons/fa';
 import { DiTerminal } from 'react-icons/di';
+import { BsCodeSlash } from "react-icons/bs";
 
 
 
@@ -17,6 +19,12 @@ export const SkillPage = () => {
                 <h1 className="skills">Skills</h1>
                 <h1 className="shadowSkill">Skills</h1>
                 <div className="section-one">
+                <h1><BsCodeSlash /> Languages</h1>
+                    <Progress text="C++" percentage={80} />
+                    <Progress text="Rust" percentage={40} />
+                    <Progress text="JavaScript/TypeScript" percentage={75} />
+                    <Progress text="Python" percentage={60} />
+                    <Progress text="HTML/CSS" percentage={80} />
                 </div>
                 <div className="section-two">
                     <h1><FaTools/> Tools</h1>

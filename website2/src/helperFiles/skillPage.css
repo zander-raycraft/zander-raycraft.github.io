@@ -36,6 +36,33 @@
     backdrop-filter: blur(8px);
     box-shadow: 5px 5px 5px rgb(169, 144, 2);
 }
+.section-one h1 {
+    position: relative;
+    width: 80%;
+    left: 5%;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.section-one h2 {
+    position: relative;
+    width: 80%;
+    left: 5%;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.section-one h2::after {
+    visibility: hidden;
+}
+
+.section-one h2 span {
+    color: rgb(80, 255, 255);
+}
 
 .section-two {
     position: absolute;
