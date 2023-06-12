@@ -3,7 +3,9 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import StudentText from "../helperFiles/typewriter";
 import { Accordion } from "../helperFiles/Acrodian";
+import { SkillPage } from "../helperFiles/skillPage";
 import "./styles.css";
+import "./seg2.css"
 
 export const PersonalPage = () => {
   //make a change
@@ -73,12 +75,8 @@ export const PersonalPage = () => {
             <Accordion className="acordian"/>
           </div>
         </div>
-        <div className="segment">
-          <div className="random-container">
-            <div className="first-cont"></div>
-            <div className="second-cont"></div>
-            <div className="third-cont"></div>
-          </div>
+        <div className="second-segment">
+          <SkillPage />
         </div>
         <div className="segment"></div>
       </div>
