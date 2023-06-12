@@ -4,6 +4,28 @@
     height: 100%;
 }
 
+.skills {
+    position: absolute;
+    font-size: 35px;
+    font-family: "Helvetica", sans-serif;
+    font-style: italic;
+    opacity: .5;
+    top: 1.5%;
+    left: 19.5%;
+    color:aqua;
+}
+
+.shadowSkill {
+    position: absolute;
+    font-size: 37px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    top: .5%;
+    left: 20%;
+    color:white;
+}
+
 .section-one {
     position: absolute;
     top: 10%;
@@ -26,6 +48,34 @@
     box-shadow: 5px 5px 5px rgb(169, 144, 2);
 }
 
+.section-two h1 {
+    position: relative;
+    width: 80%;
+    left: 5%;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.section-two h2 {
+    position: relative;
+    width: 80%;
+    left: 5%;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+}
+
+.section-two h2::after {
+    visibility: hidden;
+}
+
+.section-two h2 span {
+    color: rgb(80, 255, 255);
+}
+
 .section-three {
     position: absolute;
     top: 51%;
@@ -37,31 +87,30 @@
     box-shadow: 5px 5px 5px rgb(169, 144, 2);
 }
 
-.section-two h1 {
+.section-three h1 {
     position: relative;
     width: 80%;
     left: 5%;
     color: white;
     font-family: "Helvetica", sans-serif;
     border-bottom: 1px solid white;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
 }
 
-.section-two h2 {
+.section-three h2 {
     position: relative;
     width: 80%;
     left: 5%;
     color: white;
     font-family: "Helvetica", sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 18px;
 }
 
-.section-two h2::after {
+.section-three h2::after {
     visibility: hidden;
 }
 
-.section-two h2 span {
+.section-three h2 span {
     color: rgb(80, 255, 255);
 }
