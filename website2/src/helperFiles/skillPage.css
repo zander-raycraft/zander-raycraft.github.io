@@ -40,7 +40,7 @@
 .section-two {
     position: absolute;
     top: 8%;
-    left: 55%;
+    left: 53%;
     width: 30%; 
     height: 40%;
     border: 2px solid white;
@@ -65,7 +65,8 @@
     left: 5%;
     color: white;
     font-family: "Helvetica", sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: lighter;
 }
 
 .section-two h2::after {
@@ -79,7 +80,7 @@
 .section-three {
     position: absolute;
     top: 51%;
-    left: 55%;
+    left: 53%;
     width: 30%;
     height: 40%;
     border: 2px solid white;
@@ -104,7 +105,8 @@
     left: 5%;
     color: white;
     font-family: "Helvetica", sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: lighter;
 }
 
 .section-three h2::after {

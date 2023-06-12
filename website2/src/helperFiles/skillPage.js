@@ -10,7 +10,7 @@ export const SkillPage = () => {
         <>
             <div className="mainContainer">
                 <img
-                src={process.env.PUBLIC_URL + "/webPics/shutterstock_514474840.webp"}
+                src={process.env.PUBLIC_URL + "/webPics/abBlack.jpeg"}
                 alt="firstImage"
                 className="backImage"
                 />
@@ -20,7 +20,7 @@ export const SkillPage = () => {
                 </div>
                 <div className="section-two">
                     <h1><FaTools/> Tools</h1>
-                    <h2><span><FaAngleDoubleRight /></span> React, Vite, express.JS, Prisma</h2>
+                    <h2><span><FaAngleDoubleRight /></span> React, Vite, Prisma</h2>
                     <h2><span><FaAngleDoubleRight /></span> Git</h2>
                     <h2><span><FaAngleDoubleRight /></span> AWS</h2>
                     <h2><span><FaAngleDoubleRight /></span> Figma</h2>

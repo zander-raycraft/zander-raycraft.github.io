@@ -77,6 +77,7 @@ export const PersonalPage = () => {
         </div>
         <div className="second-segment">
           <SkillPage />
+
         </div>
         <div className="segment"></div>
       </div>
