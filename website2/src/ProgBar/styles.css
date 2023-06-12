@@ -2,6 +2,7 @@
 body {
     background: #f8f4ff;
     font-family: "Euclid Circular A", "Poppins";
+    overflow: hidden;
   }
   
   progress {
@@ -94,6 +95,11 @@ body {
     height: 100%;
     overflow-y: scroll;
     }
+
+  .container::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+  }
   .segment {
     min-height: 100vh;
   }
