@@ -1,0 +1,67 @@
+.mainContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section-one {
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    width: 35%;
+    height: 79%;
+    border: 2px solid white;
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 5px 5px rgb(169, 144, 2);
+}
+
+.section-two {
+    position: absolute;
+    top: 8%;
+    left: 55%;
+    width: 30%; 
+    height: 40%;
+    border: 2px solid white;
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 5px 5px rgb(169, 144, 2);
+}
+
+.section-three {
+    position: absolute;
+    top: 51%;
+    left: 55%;
+    width: 30%;
+    height: 40%;
+    border: 2px solid white;
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 5px 5px rgb(169, 144, 2);
+}
+
+.section-two h1 {
+    position: relative;
+    width: 80%;
+    left: 5%;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    border-bottom: 1px solid white;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.section-two h2 {
+    position: relative;
+    width: 80%;
+    left: 5%;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.section-two h2::after {
+    visibility: hidden;
+}
+
+.section-two h2 span {
+    color: rgb(80, 255, 255);
+}
