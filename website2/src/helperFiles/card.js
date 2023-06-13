@@ -20,7 +20,9 @@ export const Card = ({ title, description, relativeImagePath }) => {
   
     return (
       <div className="card" onClick={handleOpen} style={backgroundImageStyle}>
-
+        <div className="cover">
+            <h1>{ title }</h1>
+        </div>
         {/* Card content */}
         <Modal open={isOpen} onClose={handleClose}>
           <Box sx={{ width: 400, bgcolor: 'background.paper', p: 2 }}>

@@ -6,16 +6,32 @@ export const ProjectsPage = () => {
     return (
         <>
             <div className='main-container'>
-            {/* <img
-                src={process.env.PUBLIC_URL + "/webPics/waveBack.avif"}
-                alt="firstImage"
-                className="backImage"
-                /> */}
-                <Card 
-                    title={"Pickle"} 
-                    description={"Welcome to the stuff"}
-                    realtiveImagePath={"/webPics/abBlack.jpeg"}
-                />
+                <div className='card-container'>
+                    {/* Project One */}
+                    <Card
+                        title="Pickle"
+                        description="Welcome to the stuff"
+                        relativeImagePath="/webPics/IMG_0154.JPG"
+                    />
+                    {/* Project Two */}
+                    <Card
+                        title="Pickle"
+                        description="Welcome to the stuff"
+                        relativeImagePath="/webPics/IMG_0154.JPG"
+                    />
+                    {/* Project Three */}
+                    <Card
+                        title="Pickle"
+                        description="Welcome to the stuff"
+                        relativeImagePath="/webPics/IMG_0154.JPG"
+                    />
+                    {/* Project Three */}
+                    <Card
+                        title="Pickle"
+                        description="Welcome to the stuff"
+                        relativeImagePath="/webPics/IMG_0154.JPG"
+                    />
+                </div>
             </div>
         </>
     );
