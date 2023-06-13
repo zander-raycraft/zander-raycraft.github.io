@@ -44,7 +44,7 @@
     height: 79%;
     border: 2px solid white;
     backdrop-filter: blur(8px);
-    box-shadow: 5px 5px 5px rgb(169, 144, 2);
+    box-shadow: 3px 3px 10px rgb(169, 144, 2);
 }
 .section-one h1 {
     position: relative;
@@ -82,7 +82,7 @@
     height: 40%;
     border: 2px solid white;
     backdrop-filter: blur(8px);
-    box-shadow: 5px 5px 5px rgb(169, 144, 2);
+    box-shadow: 3px 3px 10px rgb(169, 144, 2);
 }
 
 .section-two h1 {
@@ -123,7 +123,7 @@
     height: 40%;
     border: 2px solid white;
     backdrop-filter: blur(8px);
-    box-shadow: 5px 5px 5px rgb(169, 144, 2);
+    box-shadow: 3px 3px 10px rgb(169, 144, 2);
 }
 
 .section-three h1 {
