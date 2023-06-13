@@ -9,27 +9,27 @@ export const ProjectsPage = () => {
                 <div className='card-container'>
                     {/* Project One */}
                     <Card
-                        title="Pickle"
+                        title="Real Estate Analysis"
                         description="Welcome to the stuff"
-                        relativeImagePath="/webPics/IMG_0154.JPG"
+                        relativeImagePath="/webPics/realEstate.jpeg"
                     />
                     {/* Project Two */}
                     <Card
-                        title="Pickle"
+                        title="Beckers Research Lab"
                         description="Welcome to the stuff"
-                        relativeImagePath="/webPics/IMG_0154.JPG"
+                        relativeImagePath="/webPics/mlbackground.jpeg"
                     />
                     {/* Project Three */}
                     <Card
-                        title="Pickle"
+                        title="MyStar Health tracker"
                         description="Welcome to the stuff"
-                        relativeImagePath="/webPics/IMG_0154.JPG"
+                        relativeImagePath="/webPics/healthImage.jpeg"
                     />
                     {/* Project Three */}
                     <Card
-                        title="Pickle"
+                        title="Placeholder for Current Project"
                         description="Welcome to the stuff"
-                        relativeImagePath="/webPics/IMG_0154.JPG"
+                        relativeImagePath="/webPics/AE91CF11-A476-4D7B-BD7C-52EB0C1064DA.JPG"
                     />
                 </div>
             </div>

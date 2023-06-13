@@ -25,3 +25,7 @@
   margin-top: 20%;
   background-color: lightblue;
 }
+
+.card-container .card:nth-child(3) {
+    background-position: center top 30%;
+}

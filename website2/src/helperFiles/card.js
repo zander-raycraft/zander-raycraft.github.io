@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Modal, Box, Typography, Button } from '@mui/material';
-import './card.css';
+import './card.css'; // Import the CSS file
 
 export const Card = ({ title, description, relativeImagePath }) => {
     const [isOpen, setIsOpen] = useState(false);
-  
+
     const handleOpen = () => {
       setIsOpen(true);
     };
-  
+
     const handleClose = (e) => {
         e.stopPropagation();
         setIsOpen(false);
@@ -17,16 +17,16 @@ export const Card = ({ title, description, relativeImagePath }) => {
     const backgroundImageStyle = {
         backgroundImage: `url(${process.env.PUBLIC_URL}${relativeImagePath})`,
     };
-  
+
     return (
       <div className="card" onClick={handleOpen} style={backgroundImageStyle}>
         <div className="cover">
-            <h1>{ title }</h1>
+          <h1>{ title }</h1>
         </div>
         {/* Card content */}
         <Modal open={isOpen} onClose={handleClose}>
-          <Box sx={{ width: 400, bgcolor: 'background.paper', p: 2 }}>
-            <Typography variant="h6" component="div" mb={2}>
+          <Box className="modalContainer">
+            <Typography className='title' variant="h6" component="div" mb={2}>
               {title}
             </Typography>
             <Typography variant="body2">{description}</Typography>
@@ -37,7 +37,6 @@ export const Card = ({ title, description, relativeImagePath }) => {
         </Modal>
       </div>
     );
-  };
-  
+};
 
 export default Card;
