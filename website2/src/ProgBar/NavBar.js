@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 import StudentText from "../helperFiles/typewriter";
 import { Accordion } from "../helperFiles/Acrodian";
 import { SkillPage } from "../helperFiles/skillPage";
+import { ProjectsPage } from "../helperFiles/projects";
 import "./styles.css";
 import "./seg2.css"
 
@@ -77,9 +78,10 @@ export const PersonalPage = () => {
         </div>
         <div className="second-segment">
           <SkillPage />
-
         </div>
-        <div className="segment"></div>
+        <div className="third-segment">
+          <ProjectsPage />
+        </div>
       </div>
     </>
   );
