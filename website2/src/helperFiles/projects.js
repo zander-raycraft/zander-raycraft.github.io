@@ -55,9 +55,13 @@ export const ProjectsPage = () => {
                     />
                     {/* Project Three */}
                     <Card
-                        title="Placeholder for Current Project"
-                        description="Welcome to the stuff"
-                        relativeImagePath="/webPics/AE91CF11-A476-4D7B-BD7C-52EB0C1064DA.JPG"
+                        title="VSVS IT Board"
+                        description="As a member of the IT Board for one of Vanderbilt's largest campus organiozations
+                        I was in charge of both the website development and making a software for automatically placing students with teachers
+                        and createing a schedule for lessons based on the best time available to everyone. The first task was the website which is currently built off
+                        of wordpress. The second task was the scheduler which takes information filled out on a google form."
+                        Language="Tools/Languages used: WordPress, HMTL/CSS, JavaScript (Website Development), Python (Scheduler application)"
+                        relativeImagePath="/webPics/vsvsLogo.png"
                     />
                     <div className='intro-text'>
                         <h1 className="top-text">Projects</h1>
