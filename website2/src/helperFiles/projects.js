@@ -34,8 +34,8 @@ export const ProjectsPage = () => {
                         and control theory in soft robotics. My role in this lab is developing the soft robot
                         as well as working to create a physics based machine learing model that acts as a feedback
                         loop for the robot to evaluate and adjust its current action relative to where it 
-                        should be. Another task is improving the labs testing software to allow for a more accurate 
-                        rendering and anlysis of data."
+                        should be. Another part of my research is working on improving the simulation software for testing
+                        the constructed Machine Learning Theory."
                         Language="Tools/Languages used: Python (ML Model). C++/MatLab (Analysis software)"
                         relativeImagePath="/webPics/mlbackground.jpeg"
                     />

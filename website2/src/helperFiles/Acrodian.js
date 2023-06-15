@@ -14,9 +14,9 @@ const faqs = [
     header: "What does my education look like?",
     text: `In grade school, I got a generalized education with a emphasis on buisness
     analytics and development. My alma matter was Jefferson County High School. I am
-    currently a junior at Vanderbilt university, where I have been able to pursure
+    currently a\n\njunior at Vanderbilt university, where I have been able to pursure
     my passion of technology, and am currently on track to double major in Computer
-    Science and Cognitive Studies, with a minor in Engineeing Managment.`,
+    Science and Cognitive Studies, with a minor in Engineeing Managment \nmeow meow meow`,
   },
   {
     id: 3,
