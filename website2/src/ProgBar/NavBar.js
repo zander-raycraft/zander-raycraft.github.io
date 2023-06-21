@@ -5,12 +5,22 @@ import StudentText from "../helperFiles/typewriter";
 import { Accordion } from "../helperFiles/Acrodian";
 import { SkillPage } from "../helperFiles/skillPage";
 import { ProjectsPage } from "../helperFiles/projects";
+import { AiFillGithub, AiFillLinkedin, AiFillContainer } from "react-icons/ai";
+
 import "./styles.css";
 import "./seg2.css"
 
 export const PersonalPage = () => {
   //make a change
   const progressRef = useRef(null);
+
+  const redirectTolink = (link) => {
+    window.open(link);
+  };
+
+  const redirectToPdf = () => {
+    window.location.href = `${process.env.PUBLIC_URL}/documents/Zander-Resume.pdf`;
+  };
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -49,10 +59,46 @@ export const PersonalPage = () => {
       ></progress>
       <nav>
         <h2>
-          Zander <span>Raycraft</span>
+          Zander<span>Raycraft</span>
         </h2>
         <StudentText />
-        <div className="hamburgerMenu"></div>
+        <div className="social-container">
+          <div className="linkdin" onClick={() => redirectTolink(
+            'https://www.linkedin.com/in/zander-raycraft/'
+          )}>
+            <AiFillLinkedin 
+                style={{
+                height: "100%",
+                width: "100%"
+              }}
+            />
+          </div>
+          <div className="github" onClick={() => redirectTolink(
+            'https://github.com/zander-raycraft'
+          )}>
+            <AiFillGithub 
+                style={{
+                height: "100%",
+                width: "100%"
+              }}
+            />
+          </div>
+          <div className="resume" onClick={redirectToPdf}>
+            <AiFillContainer 
+              style={{
+                height: "100%",
+                width: "100%"
+              }}
+            />
+            <p
+              style={{
+                position: "relative",
+                top: "-50%",
+                left: "20%"
+              }}
+            >Resume</p>
+          </div>
+        </div>
       </nav>
       <div className="container">
         <div className="firstSegment">

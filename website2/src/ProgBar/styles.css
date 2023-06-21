@@ -78,13 +78,23 @@ body {
     font-size: 20px;
   }
 
-  .hamburgerMenu {
+  .social-container {
     position: relative;
-    background: yellow;
-    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 30%;
     height: 40px;
     left: -60px;
     margin-left: auto;
+  }
+
+  .github,
+  .linkdin,
+  .resume {
+    color: white;
+    width: 20%;
+    height: 100%;
   }
 
   .container {
