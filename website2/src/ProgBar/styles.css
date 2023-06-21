@@ -97,6 +97,12 @@ body {
     height: 100%;
   }
 
+  .github:hover,
+  .linkdin:hover,
+  .resume:hover {
+    color:rgb(80, 255, 255);
+  }
+
   .container {
     position: absolute;
     left: 0;
