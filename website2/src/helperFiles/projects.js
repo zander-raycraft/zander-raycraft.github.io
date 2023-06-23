@@ -32,7 +32,7 @@ export const ProjectsPage = () => {
                         of Computer Science. I currently work as a Student Resarcher in Thomas Beckers's
                         lab. The goal of this lab is to study the integration between machine learning 
                         and control theory in soft robotics. My role in this lab is developing the soft robot physical system and the repective integrated cyber-physical system.
-                        as well as working to create a physics based machine learing model that acts as a feedback
+                        as well as working as apart of a team to create a physics based machine learing model that acts as a feedback
                         loop for the robot to evaluate and adjust its current action relative to where it 
                         should be."
                         Language="Tools/Languages used: Python (ML Model). C++/MatLab (Cyber-Physical control system)"
