@@ -16,7 +16,7 @@ const faqs = [
     analytics and development. My alma matter was Jefferson County High School. I am
     currently a junior at Vanderbilt university, where I have been able to pursure
     my passion of technology, and am currently on track to double major in Computer
-    Science and Cognitive Studies, with a minor in Engineeing Managment`,
+    Science and Mathematics, with a minor in Engineeing Managment`,
   },
   {
     id: 3,
