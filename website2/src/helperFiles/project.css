@@ -33,7 +33,7 @@
     position: relative;
     color: white;
     top: 45%;
-    font-size: 60px;
+    font-size: 4.0vw;
     font-family: "Helvetica", sans-serif;
     font-style: italic;
     font-weight: lighter;
@@ -44,8 +44,8 @@
     position: relative;
     color: rgb(80, 255, 255);
     font-style: italic;
-    font-size: 55px;
-    top: -90%;
+    font-size: 4.0vw;
+    top: -80%;
     left: -1%;
     opacity: .5;
     font-family: "Helvetica", sans-serif;

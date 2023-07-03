@@ -44,7 +44,7 @@ body {
   article h2 {
     margin: 0;
     font-family: "Helvetica", sans-serif;
-    font-size: 2.0vw;
+    font-size: 2.5vw;
     font-weight: lighter;
   }
   article h2::after {
