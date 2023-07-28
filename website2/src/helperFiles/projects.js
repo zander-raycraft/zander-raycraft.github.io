@@ -41,7 +41,7 @@ export const ProjectsPage = () => {
                     {/* Project Three */}
                     <Card
                         title="Zero-Knowledge dApp"
-                        description="These two full stack projects are seperate but run using a similar tech stack. The first os a non-hackable voting
+                        description="These two full stack projects are seperate but run using a similar tech stack. The first is a non-hackable voting
                         system utilizing Zero-Knowledge proofs built on the Aleo network. Backend and contracts are developed with Leo, with the
                         Puzzler SDKs connecting the frontend typescript react app to the chain. This is privacy is due to the underlying ZKSnarks
                         that allow for the validation of on-chain transactions without revealing any more inforamtion other than a solution and
