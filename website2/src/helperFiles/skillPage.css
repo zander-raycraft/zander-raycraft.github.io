@@ -19,21 +19,11 @@
     font-size: 3.0vw;
     font-family: "Helvetica", sans-serif;
     font-style: italic;
-    opacity: .5;
-    top: 1.5%;
+    top: -5%;
+    opacity: .8;
+    font-weight: lighter;
     left: 19.5%;
     color:aqua;
-}
-
-.shadowSkill {
-    position: absolute;
-    font-size: 3.0vw;
-    font-family: "Helvetica", sans-serif;
-    font-weight: lighter;
-    font-style: italic;
-    top: .5%;
-    left: 20%;
-    color:white;
 }
 
 .section-one {
@@ -103,7 +93,7 @@
     left: 5%;
     color: white;
     font-family: "Helvetica", sans-serif;
-    font-size: 1.5vw;
+    font-size: 18px;
     font-weight: lighter;
 }
 
@@ -143,7 +133,7 @@
     left: 5%;
     color: white;
     font-family: "Helvetica", sans-serif;
-    font-size: 1.5vw;
+    font-size: 20px;
     font-weight: lighter;
 }
 

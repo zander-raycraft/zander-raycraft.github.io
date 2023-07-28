@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Against';
+    src: url('./fonts/against-demo/against regular.otf') format('opentype'),
+         url('./fonts/against-demo/against regular.ttf') format('truetype');
+  }
+  
+  /* body {
+    font-family: 'Against', sans-serif;
+  } */
+  

@@ -40,17 +40,15 @@ export const ProjectsPage = () => {
                     />
                     {/* Project Three */}
                     <Card
-                        title="MyStar Health tracker"
-                        description="The WebApp project is a tracker for someones mental and physical health. 
-                        The idea behind this is the user creates an account and fills out a form of their current fitness
-                        levels and their goal fitness levels. They are then given a basic workout plan to start from. 
-                        As the user logs their workouts and progress, the workout plan re-evaluates what is best for them 
-                        to best meet their goals. There is a second section that focuses on mental health where the user
-                        fils out a daily for, logging how they felt throughout the day. They can look at their history and if they
-                        opt into it, they can have simple advice generated for them with the aim of helping with whatever their mental 
-                        state is."
-                        Language="Tools/Languages used: React (JS Framework), Netlify (web hosting), HTML/CSS, JavaScript (App development)"
-                        relativeImagePath="/webPics/healthImage.jpeg"
+                        title="Zero-Knowledge dApp"
+                        description="These two full stack projects are seperate but run using a similar tech stack. The first os a non-hackable voting
+                        system utilizing Zero-Knowledge proofs built on the Aleo network. Backend and contracts are developed with Leo, with the
+                        Puzzler SDKs connecting the frontend typescript react app to the chain. This is privacy is due to the underlying ZKSnarks
+                        that allow for the validation of on-chain transactions without revealing any more inforamtion other than a solution and
+                        a proof. The second of the two projects is a go-fish game that acts just as it sounds built again on the aleo chain and utilizing similar
+                        technologies as the Voting dApp"
+                        Language="Tools/Languages used: React (JS Framework), HTML/CSS, JavaScript (App development), Leo (Smart contract Development)"
+                        relativeImagePath="/webPics/aleoImage2.webp"
                     />
                     {/* Project Three */}
                     <Card
@@ -64,7 +62,6 @@ export const ProjectsPage = () => {
                     />
                     <div className='intro-text'>
                         <h1 className="top-text">Projects</h1>
-                        <h1 className="bottom-text">Projects</h1>
                     </div>
                     <div className='time-bar' />
                 </div>

@@ -17,7 +17,6 @@ export const SkillPage = () => {
                 className="backImage"
                 />
                 <h1 className="skills">Skills</h1>
-                <h1 className="shadowSkill">Skills</h1>
                 <div className="section-one">
                 <h1><BsCodeSlash /> Languages</h1>
                     <Progress text="C++" percentage={80} />

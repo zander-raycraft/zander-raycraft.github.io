@@ -226,35 +226,15 @@ body {
     z-index: 3;
 
   }
-  .shadow {
-    position: absolute;
-    opacity: .5;
-    font-family: "Helvetica", sans-serif;
-    font-size: 2.8vw;
-    color: rgb(80, 255, 255);
-    top: -28%;
-    left: 40%;
-    z-index: 1;
-  }
-
-  .secondShadow {
-    position: absolute;
-    opacity: .5;
-    font-family: "Helvetica", sans-serif;
-    font-size: 2.6vw;
-    color: rgb(80, 255, 255);
-    top: -21%;
-    left: 15.5%;
-    z-index: 1;
-}
 
   .secondText {
     position: absolute;
     font-family: "Helvetica", sans-serif;
-    font-size: 2.8vw;
+    font-size: 2.0vw;
     font-weight: lighter;
-    color: white;
-    top: -17%;
+    color: aqua;
+    opacity: .8;
+    top: -10%;
     left: 15%;
     z-index: 3;
 }

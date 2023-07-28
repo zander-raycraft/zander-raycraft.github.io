@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import "../fonts.css"
 import StudentText from "../helperFiles/typewriter";
 import { Accordion } from "../helperFiles/Acrodian";
 import { SkillPage } from "../helperFiles/skillPage";
@@ -115,10 +116,22 @@ export const PersonalPage = () => {
             <img src={process.env.PUBLIC_URL + "/webPics/IMG_0154.jpg"} alt="thirdImage" className="thirdImage"/>
           </div>
           <div className="aboutme-container">
-            <h3>I'm Zander,</h3>
-            <h4 className="shadow">I'm Zander</h4>
-            <h1 className="secondText">Student and Software developer</h1>
-            <h5 className="secondShadow">Student <span>and</span> Software developer</h5>
+            <h3 style={{
+              fontFamily: "Times New Roman, sans-serif",
+              fontSize: "2.8vw",
+              fontWeight: "Lighter",
+              left: "10%",
+            }}>I'm <span
+              style={{
+                fontFamily: "Times New Roman, sans-serif",
+                fontWeight: "lighter",
+              }}
+            >Zander</span>,</h3>
+            <h1 className="secondText"
+              style={{
+                fontFamily: "Against, sans-serif",
+              }}
+            >Student and Software developer</h1>
             <Accordion className="acordian"/>
           </div>
         </div>
