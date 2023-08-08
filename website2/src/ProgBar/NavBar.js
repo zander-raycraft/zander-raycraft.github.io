@@ -112,8 +112,6 @@ export const PersonalPage = () => {
           </div>
           <div className="imageContainer">
             <img src={process.env.PUBLIC_URL + "/webPics/DSC00127.jpg"} alt="firstImage" className="firstImage"/>
-            <img src={process.env.PUBLIC_URL + "/webPics/IMG_4385.jpg"} alt="secondImage" className="secondImage"/>
-            <img src={process.env.PUBLIC_URL + "/webPics/IMG_0154.jpg"} alt="thirdImage" className="thirdImage"/>
           </div>
           <div className="aboutme-container">
             <h3 style={{

@@ -152,44 +152,15 @@ body {
   .firstImage {
     position: relative;
     left: 5%;
-    height: 45%;
-    width: 50%;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-}
-  .secondImage {
-    position: relative;
     top: 30%;
-    left: -10%;
-    height: 60%;
-    width: 50%;
+    height: 65%;
+    width: 70%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
-    z-index: 8;
 }
-  .thirdImage {
-    position: relative;
-    left: 10%;
-    top: 8%;
-    height: 60%;
-    width: 35%;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-  }
-
-  .imageContainer img:hover {
-    box-shadow: 5px 5px 5px lavender;
-    z-index: 100;
-  }
 
   .bar {
     position: absolute;
@@ -231,10 +202,10 @@ body {
     position: absolute;
     font-family: "Helvetica", sans-serif;
     font-size: 2.0vw;
-    font-weight: lighter;
+    font-weight: 600;
     color: aqua;
     opacity: .8;
-    top: -10%;
+    top: -13%;
     left: 15%;
     z-index: 3;
 }
