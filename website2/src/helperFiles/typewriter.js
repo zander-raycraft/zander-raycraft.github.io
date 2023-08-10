@@ -84,7 +84,7 @@ const Typewriter = () => {
 
   return (
     <div>
-      <h3>
+      <h3 style={{ fontSize: "20px"}}>
         {text}
         {showCursor && <span className="cursor-line">|</span>}
       </h3>
