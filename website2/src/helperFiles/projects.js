@@ -52,13 +52,14 @@ export const ProjectsPage = () => {
                     />
                     {/* Project Three */}
                     <Card
-                        title="VSVS IT Board"
-                        description="As a member of the IT Board for one of Vanderbilt's largest campus organiozations
-                        I was in charge of both the website development and making a software for automatically placing students with teachers
-                        and createing a schedule for lessons based on the best time available to everyone. The first task was the website which is currently built off
-                        of wordpress. The second task was the scheduler which takes information filled out on a google form."
-                        Language="Tools/Languages used: WordPress, HMTL/CSS, JavaScript (Website Development), Python (Scheduler application)"
-                        relativeImagePath="/webPics/vsvsLogo.png"
+                        title="Emotion Classifier"
+                        description="I created a neural network to analyze live camera feeds using a dataset 
+                        from Kaggle (You can find the link to the dataset on my GitHub). This model interprets 
+                        the emotions portrayed by persons within the frame and incorporates the categorization findings 
+                        back into the live feed for display in real time. IF you want to learn more, you can find 
+                        more on this project on GitHub GitHub."
+                        Language="Tools/Languages used: Pyhton, Tensorflow, Pytest (automated testing), Numpy, OpenCV"
+                        relativeImagePath="/webPics/neuralnetwork.png"
                     />
                     <div className='intro-text'>
                         <h1 className="top-text">Projects</h1>
