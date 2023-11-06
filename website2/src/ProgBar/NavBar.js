@@ -20,7 +20,7 @@ export const PersonalPage = () => {
   };
 
   const redirectToPdf = () => {
-    window.location.href = `${process.env.PUBLIC_URL}/documents/resume-zander.pdf`;
+    window.location.href = `${process.env.PUBLIC_URL}/documents/raycraft_zander_SWE.pdf`;
   };
 
   useEffect(() => {
