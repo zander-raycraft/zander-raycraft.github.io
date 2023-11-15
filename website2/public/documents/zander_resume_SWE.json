@@ -1,0 +1,167 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "awards": "Career Certificates",
+    "projects": "Personal Project"
+  },
+  "basics": {
+    "name": "Zander Raycraft",
+    "email": "raycraftzanderj@gmail.com",
+    "phone": "865-221-4571",
+    "website": "https://zanderraycraft.com",
+    "location": {
+      "address": "Nashville, TN"
+    }
+  },
+  "education": [
+    {
+      "location": "Nashville, TN",
+      "area": "Computer Science and Mathematics / Minor in Data Science:",
+      "studyType": "BS",
+      "startDate": "August 2021",
+      "endDate": "May 2025",
+      "gpa": "3.4",
+      "institution": "Vanderbilt University"
+    }
+  ],
+  "work": [
+    {
+      "position": "Machine Learning Student Researcher",
+      "website": "",
+      "highlights": [
+        "Developed Port-Hamiltonian-derived machine learning model leveraging computer vision to simulate a physical environment for testing of soft robotics",
+        "Designed and prototyped a reactive soft robot and the embedded controller for the robot, written in C++"
+      ],
+      "company": "Vanderbilt Institute for Software and Integrated Systems",
+      "location": "Nashville, TN",
+      "startDate": "January 2023",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Built a non-hackable, zero-knowledge rollup based, full stack, Voting System using Typescript and Aleo's DSL Leo for production"
+      ],
+      "company": "Puzzle",
+      "position": "Web3 Full stack engineering intern",
+      "location": "Remote",
+      "startDate": "May 2023",
+      "endDate": "August 2023"
+    },
+    {
+      "highlights": [
+        "Joined esteemed cohort, fostering industry connections for tech excellence. Completed specialized Goldman Sachs modules",
+        "Developed a C++/Python based software for parsing and minimizing extensive data sets"
+      ],
+      "company": "Goldman Sachs",
+      "position": "Student participant in Engineering Summit",
+      "location": "Remote",
+      "startDate": "December 2022",
+      "endDate": "April 2023"
+    },
+    {
+      "highlights": [
+        "Overhauled website and improved runtime efficiency by ~34% of internal software for team communication and scheduling of student teaching events",
+        "Responsible for managing a student volunteer group for organizing and teaching STEM lessons to middle school students"
+      ],
+      "company": "Vanderbilt Student Volunteers for Science",
+      "position": "Software Engineer/IT Board Executive",
+      "location": "Nashville, TN",
+      "startDate": "December 2022",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Developed proprietary investment risk analysis software utilizing REST api and Python, producing a 0% default rate on investments",
+        "Underwrote real estate investment deals to indicate future value and quality"
+      ],
+      "company": "Urbangate Capital",
+      "position": "Investment Analyst/Technology development intern",
+      "location": "Nashville, TN",
+      "startDate": "August 2021",
+      "endDate": "October 2022"
+    },
+    {
+      "highlights": [
+        "Published paper on blockchain governance, analyzing application and future prospects through development methods and on-chain analysis",
+        "Published an article analyzing a Senate bill centered around blockchain technology promotion"
+      ],
+      "company": "Phemex Financial Pte. Ltd.",
+      "position": "Student Researcher",
+      "location": "Remote",
+      "startDate": "May 2022",
+      "endDate": "August 2022"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Javascript",
+        "Typescript",
+        "Python",
+        "Rust",
+        "C++",
+        "HTML/CSS",
+        "Leo",
+        "MySQL",
+        "Flutter",
+        ""
+      ]
+    },
+    {
+      "keywords": [
+        "Express.js",
+        "React.js",
+        "React Native",
+        "Linux/UNIX",
+        "Node.js",
+        "Flask"
+      ],
+      "name": "Tech Stack"
+    },
+    {
+      "keywords": [
+        "REST api",
+        "Amazon Web Service (AWS)",
+        "Docker",
+        "Automated testing (Pytest, Gtest)"
+      ],
+      "name": "DevOp Skills"
+    }
+  ],
+  "projects": [
+    {
+      "url": "https://github.com/zander-raycraft/emotion-classifier",
+      "keywords": [
+        "Python",
+        "Tensorflow",
+        "OpenCV",
+        "Numpy",
+        "Pandas"
+      ],
+      "name": "Emotion Classifier",
+      "description": "The program designs and trains a neural network using Kaggle data, processes real-time camera footage for the model, and classifies and displays the user's current emotion instantly."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Quantitative Research Certificate",
+      "date": "August 2023",
+      "awarder": "JPMorgan Chase & Co.",
+      "summary": "Engaged with the Quantitative research division, delivering impactful contributions across four critical assignments; developing 4 python machine-learning models to analyze complex data, yielding ~99% accurate predictive insights"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
