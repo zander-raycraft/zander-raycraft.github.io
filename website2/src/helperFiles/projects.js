@@ -57,7 +57,7 @@ export const ProjectsPage = () => {
                         from Kaggle (You can find the link to the dataset on my GitHub). This model interprets 
                         the emotions portrayed by persons within the frame and incorporates the categorization findings 
                         back into the live feed for display in real time. IF you want to learn more, you can find 
-                        more on this project on GitHub GitHub."
+                        more on this project on GitHub."
                         Language="Tools/Languages used: Pyhton, Tensorflow, Pytest (automated testing), Numpy, OpenCV"
                         relativeImagePath="/webPics/neuralnetwork.png"
                     />
